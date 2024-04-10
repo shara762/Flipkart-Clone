@@ -1,0 +1,287 @@
+*{
+
+    padding: 0;
+    margin: 0;
+}
+
+
+#navbar2
+{
+    
+    display: flex;
+    
+    justify-content: space-around;
+   height: 50px;
+    /* margin-left: 15%;
+    margin-right: 10%;  */
+    background-color: #2874F0;
+    
+}
+
+#nav2{
+    display: flex;
+    flex-direction: column;
+}
+
+#flipkartname2{
+    font-size: 23px;
+    font-family: sans-serif;
+    font-style: italic;
+    color:#FFFFFF;
+
+    font-weight: bold;
+}
+
+#explorename2{
+    color:#dfdcdc;
+    font-size:12px;
+    font-style: italic;
+    font-family:sans-serif;
+     font-weight: bold;
+}
+
+.input_search_pic2{
+    display: flex;
+    align-items: center;
+    color: #2A55E5;
+}
+#inputdata2{
+    display: flex;
+border: none;
+width: 360px;
+height: 30px;
+border: 1px solid silver;
+padding-left: 12px;
+}
+
+#search_sign{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    height: 31px;
+    border: none;
+
+}
+
+.login_input{
+    display: flex;
+    align-items: center;
+}
+
+#logindata{
+    
+        border: none;
+        width: 110px;
+        height: 30px;
+        border: 1px solid silver;
+        padding-left: 12px;
+}
+
+.more{
+
+    display: flex;
+    align-items: center;
+    margin-top: 23px;
+}
+#dropmore{
+
+    border: none;
+    background-color:  #2874F0;
+    margin-bottom: 20px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+
+}
+
+
+.shop2{
+    display: flex;
+align-items:center;
+}
+#seller{
+    margin-left: 10px;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+
+.cart2{
+    display: flex;
+    align-items:center;
+    color: white;
+    font-family: sans-serif;
+}
+
+#cart2{
+    margin-left: 10px;
+}
+
+
+.navbar3{
+
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-weight: bold;
+    color: black;
+    justify-content: space-around;
+   
+}
+
+#drop{
+margin-top: 10px;
+    background-color: #FFFFFF;
+    border: none;
+    
+}
+
+
+
+.main1{
+
+    display: flex;
+justify-content: center;
+/* border: 2px solid black; */
+align-items: center;
+margin-top: 10px;
+background-color: #F1F3F6;
+
+}
+
+.main2{
+    display: flex;
+    /* border: 2px solid rgb(211, 30, 30); */
+    /* background-color: white; */
+    width: 55%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 500px;
+
+}
+#leftbox{
+
+background-color: #2874F0;
+width: 160%;
+color: white;
+}
+
+#leftbox p{
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 25px;
+    padding: 12px;
+    font-family: sans-serif;
+}
+
+#rightbox{
+    font-family: sans-serif;
+    flex-direction: column;
+    display: flex;
+    background-color: white;
+    width: 250%;
+
+}
+
+
+#reqbutn{
+
+    border: none;
+    margin-left: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #FB641B;
+    margin-left: 10px;
+    border-radius: 3px;
+    width: 90%;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 15px;
+    
+}
+
+#new{
+
+    display: flex;
+    justify-content: center;
+    margin-top:61%;
+}
+
+
+
+.footer{
+    
+    display: flex;
+    justify-content: space-around;
+    background-color:#212121;
+    color: white;
+    padding-bottom: 90px;
+    padding-top: 30px;
+    height: 50%;
+    
+}
+.footer li{
+
+    list-style: none;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: sans-serif;
+    
+
+}
+
+.headfoot{
+    color:#818181;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+ 
+
+
+#foot2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-bottom: 20px;    
+
+} 
+
+#shop2{
+    display: flex;
+    font-size: 11px;
+    font-weight: bold;
+    margin-left: 12px;
+    font-family: sans-serif;
+}
+
+#advertie{
+    display: flex;
+    font-size: 11px;
+    font-weight: bold;
+    margin-left: 12px;
+    font-family: sans-serif;
+}
+#gift{
+    display: flex;
+    font-size: 11px;
+    font-weight: bold;
+     font-family: sans-serif;
+     margin-left: 12px;
+
+}
+#help{
+    display: flex;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: sans-serif;
+    margin-left: 12px;
+
+}
+#domain{
+    display: flex;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: sans-serif;
+}

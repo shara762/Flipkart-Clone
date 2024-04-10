@@ -1,0 +1,102 @@
+
+
+#product{
+    display: flex;
+    background-color: #F0F2F5;
+}
+
+
+.menubar>span{
+    padding: 5px;
+    margin: 5px;
+    font-family: sans-serif;
+}
+
+#collection{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+}
+
+
+.METRONAUT{
+    height: 220px;
+    width: 200px;
+}
+#filter{
+    width: 25%;
+    border:1px solid red;
+    height:197vh;
+    margin-left:8px;
+    background-color:#fff;
+    margin-top:10px;
+
+}
+#f{
+    margin-left:15px;
+    font-family:sans-serif;
+    margin-top:15px;
+    font-size:18px;
+    border-bottom:  1px solid rgb(235, 13, 13);
+
+}
+
+#category{
+    
+ display: flex;
+
+}
+.secondiv#collection>h5{
+    font-size: 40px;
+
+    text-decoration-line: overline;}
+#c{
+    font-size: 10px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-left:15px;
+    
+}
+#c li{
+    list-style: none;
+    color: #AAA9AA;
+    font-size: 13px;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+#f ul{
+
+    color:  black;
+    font-weight: 100px;
+
+
+}
+
+
+#choice{
+    width: 95%;
+    height: 45px;
+    margin-left: 10px;
+    border: none;
+    
+}
+
+
+
+.question {
+    border-radius: 50%;
+    background-color: #fff;
+    color: #878787;
+    font-weight: 500;
+    width: 16px;
+    height: 16px;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 0 1px 0 rgba(0,0,0,.2);
+    vertical-align: middle;
+    margin: 0 22px 0 105px;
+    cursor: pointer;
+}

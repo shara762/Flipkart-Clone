@@ -1,0 +1,111 @@
+*{
+    
+    background-color: #F1F2F4;
+    
+}
+
+#strip{
+    background-color: #fff;
+}
+
+#navbar
+{
+    
+    display: flex;
+    justify-content: space-around;
+    margin-top: 12px;
+    background-color: #fff;
+}
+
+#nav{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+
+
+}
+
+#flipkartname{
+    font-size: 23px;
+    font-family: sans-serif;
+    font-style: italic;
+    color: #2A55E5;
+    font-weight: bold;
+    background-color: #fff;
+
+}
+
+#explorename{
+    color:#9E9E9E;
+    background-color: #fff;
+    font-size:12px;
+    font-style: italic;
+    font-family:sans-serif;
+     font-weight: bold;
+}
+
+.input_search_pic{
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+}
+#inputdata{
+border: none;
+width: 360px;
+height: 20px;
+border: 1px solid silver;
+padding-left: 12px;
+
+
+}
+
+.shop{
+    display: flex;
+align-items:center;
+background-color: #fff;
+
+}
+#seller{
+    margin-left: 10px;
+    background-color: #fff;
+
+}
+
+.sign{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+
+}
+
+#signup{
+    margin-left: 10px;
+    color: #000;
+    text-decoration: none;
+
+}
+
+.cart{
+    display: flex;
+    align-items:center;
+    background-color: #fff;
+
+}
+
+#cart{
+    margin-left: 10px;
+    background-color: #fff;
+}
+
+
+#pic_array{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+
+}
+#pic_array>div>img{
+    height: 70px;
+    
+}
